@@ -37,7 +37,7 @@ Open `http://localhost:8000/stress-monitor.html` in Chrome or Edge.
 ## Test on a phone
 
 Phones need HTTPS. The simplest route is GitHub Pages:
- Open `https://git-kaushal.github.io/stress-monitor/stress-monitor.html` on your phone.
+ Open `https://git-kaushal.github.io/stress-monitor/` on your phone.
 
 You can also use a tunnel such as ngrok or cloudflared pointed at your local server.
 
