@@ -40,4 +40,5 @@ Phones need HTTPS. The simplest route is GitHub Pages:
  Open `https://git-kaushal.github.io/stress-monitor/` on your phone.
 
 You can also use a tunnel such as ngrok or cloudflared pointed at your local server.
-
+Licencse:
+Released under the MIT License Copyright (c) 2026 Kaushal J
