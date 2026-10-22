@@ -24,6 +24,20 @@ A private, in-browser indicator of facial tension for students and teachers. It 
 
 Current Chrome, Edge, Safari and Firefox, with a front camera.
 
-## License
+## Run locally
 
+Browsers allow the camera only on HTTPS or `localhost`, so opening the file directly will not work.
+
+```
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/stress-monitor.html` in Chrome or Edge.
+
+## Test on a phone
+
+Phones need HTTPS. The simplest route is GitHub Pages:
+ Open `https://git-kaushal.github.io/stress-monitor/stress-monitor.html` on your phone.
+
+You can also use a tunnel such as ngrok or cloudflared pointed at your local server.
 
